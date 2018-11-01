@@ -8,6 +8,11 @@ h4 {
     margin: 0;
 }
 
+.display-3,
+.text-center {
+    color: #FFFFFF;
+}
+
 .modal,
 body.modal-open {
     padding-right: 0!important
@@ -39,6 +44,16 @@ body.scrollable {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.bottomcontent {
+    width: 100vw;
+    background-color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+.hiddentext {
+    color: #FFFFFF
 }
 
 .btn {
@@ -78,6 +93,23 @@ body.scrollable {
     margin-right: 0px;
     margin-left: 0px;
     padding: 30px;
+    background-image: url("images/bgimgcontent.svg");
+    background-repeat: repeat-y;
+    background-size: 100vw, 100vh;
+}
+
+.contentsep2 {
+    width: 100vw;
+    background-color: ghostwhite;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 30px;
+    background-image: url("images/bgimgcontent2.svg");
+    background-repeat: repeat-y;
+    background-size: 100vw, 100vh;
 }
 
 .contentwhite {
@@ -142,6 +174,7 @@ body.scrollable {
 }
 
 .Background {
+    overflow-x: hidden;
     border-style: Solid;
     border-color: #FFFFFF;
     border-color: rgba(255, 255, 255, 1);
@@ -156,7 +189,10 @@ body.scrollable {
 .header {
     width: 100vw;
     padding-bottom: 10px;
-    background-color: ghostwhite
+    background-color: ghostwhite;
+    background-image: url("images/bgimg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .footer {
@@ -741,9 +777,15 @@ body.scrollable {
         height: 100px;
         width: 100%;
     }
+    .mobileabout {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 960px) {
+    .desktopabout {
+        display: none;
+    }
     .Box_Right2 {
         display: none;
         border-style: Solid;
