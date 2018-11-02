@@ -123,6 +123,20 @@ body.scrollable {
     padding: 30px;
 }
 
+.contentsepvid {
+    width: 100vw;
+    background-color: ghostwhite;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 65px;
+    background-image: url("images/bgimgcontent.svg");
+    background-repeat: repeat-y;
+    background-size: 100vw, 100vh;
+}
+
 .logos {
     width: 50%;
 }
@@ -133,6 +147,19 @@ body.scrollable {
 
 .mobileview {
     display: none;
+}
+
+.aboutpost {
+    padding: 30px;
+}
+
+.btnblacktext {
+    color: black;
+}
+
+.videocontain {
+    width: 50%;
+    align-self: center;
 }
 
 @media screen and (max-width: 750px) {
@@ -191,7 +218,7 @@ body.scrollable {
     padding-bottom: 10px;
     background-color: ghostwhite;
     background-image: url("images/bgimg.svg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
 }
 
