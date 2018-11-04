@@ -136,6 +136,19 @@ body.scrollable {
     background-repeat: repeat-y;
     background-size: 100vw, 100vh;
 }
+.contentsepvidmobile{
+    width: 100vw;
+    background-color: ghostwhite;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    background-image: url("images/bgimgcontent.svg");
+    background-repeat: repeat-y;
+    background-size: 100vw, 100vh;
+}
 
 .logos {
     width: 50%;
@@ -146,6 +159,9 @@ body.scrollable {
 }
 
 .mobileview {
+    display: none;
+}
+.mobileviewvideo{
     display: none;
 }
 
@@ -172,7 +188,13 @@ body.scrollable {
     .mobileview {
         display: flex;
     }
+    .mobileviewvideo {
+        display: flex;
+    }
     .desktop {
+        display: none;
+    }
+    .desktopvideoview {
         display: none;
     }
     img {
