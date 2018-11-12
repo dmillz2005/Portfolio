@@ -27,7 +27,7 @@ body.scrollable {
 }
 
 .sidelinks {
-    color: black;
+    color: darkblue;
     text-decoration: none
 }
 
@@ -67,10 +67,13 @@ body.scrollable {
 
 .project:hover .img-fluid {
     opacity: 0.5;
+    color: orangered;
+    background-color: orangered
 }
 
-.project:hover .middle {
-    opacity: .5;
+.project:hover .overlay {
+    opacity: 0.2;
+    color: orangered;
 }
 
 .row::after {
@@ -136,7 +139,8 @@ body.scrollable {
     background-repeat: repeat-y;
     background-size: 100vw, 100vh;
 }
-.contentsepvidmobile{
+
+.contentsepvidmobile {
     width: 100vw;
     background-color: ghostwhite;
     float: left;
@@ -161,7 +165,8 @@ body.scrollable {
 .mobileview {
     display: none;
 }
-.mobileviewvideo{
+
+.mobileviewvideo {
     display: none;
 }
 
