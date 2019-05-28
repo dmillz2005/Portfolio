@@ -157,6 +157,20 @@ body.scrollable {
 .logos {
     width: 50%;
 }
+.ellogos{
+    width:500px;
+
+}
+.projectdescript{
+    width:50%;
+    
+}
+.projectdescriptmain{
+    width: 100vw;
+
+align-content: center;
+    
+}
 
 .profile {
     width: 60%;
