@@ -65,6 +65,11 @@ body.scrollable {
     box-shadow: 5px 10px 5px;
 } */
 
+.companylogos{
+
+    width: 75px;
+}
+
 .project:hover .img-fluid {
     opacity: 0.5;
     color: orangered;
